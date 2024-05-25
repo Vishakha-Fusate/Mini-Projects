@@ -24,7 +24,7 @@ input {
 input[type=submit]
     {
     border-radius: 5px;
-    margin: 15px auto 0 auto;
+    margin: 10px auto 0 auto;
     width: 40%;
     background-color: rgb(203, 163, 245);
 }
@@ -35,4 +35,10 @@ form {
     margin: auto;
     border: 2px solid black ;
     padding: 15px;
+}
+
+.g-recaptcha{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
 }

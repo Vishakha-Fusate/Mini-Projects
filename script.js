@@ -1,5 +1,5 @@
 let captchachecked = false;
-function beforesubmit() {
+function beforesubmit(event) {
     if (captchachecked) {
         let outputDate = document.querySelector(".outputDate");
         let inputDate = document.querySelector(".inputdate");
@@ -28,6 +28,6 @@ function timestamp() {
 }
 setInterval(timestamp, 500);
 
-function recaptchasuccess{
+function recaptchasuccess() {
     captchachecked = true;
 }
